@@ -1,0 +1,210 @@
+/* nav  */
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: burlywood;
+}
+
+
+
+
+
+
+
+
+/* card   */
+.container {
+    display: flex;
+}
+
+.card {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    width: 300px;
+}
+
+.profile {
+    width: 100px;
+    border: 2px solid wheat;
+    border-radius: 50%;
+}
+
+
+.info {
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+    flex-direction: column;
+}
+
+p {
+    margin: 2px;
+}
+
+.media1 {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.card2 {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile2 {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid wheat;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.name2 {
+    font-weight: bold;
+}
+
+.bio2 {
+    margin-bottom: 0;
+}
+
+.bio3 {
+    margin-top: 0;
+}
+
+.media {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.icons {
+    background-color: burlywood;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+/* button  */
+
+.buttons {
+    background-color: green;
+    width: 50%;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn-1 {
+    background-color: #4040a1;
+    color: #fefbd8;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#btn-1:hover {
+    background-color: #fefbd8;
+    color: #4040a1;
+}
+
+
+#btn-2 {
+    background-color: #bc5a45;
+    color: #f4e1d2;
+    border: none;
+    border-radius: 35px;
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+#btn-2:hover {
+    background-color: #f4e1d2;
+    color: #bc5a45;
+}
+
+#btn-3 {
+    background-color: #ffef96;
+    color: #50394c;
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+#btn-3:hover {
+    background-color: #50394c;
+    color: #ffef96;
+    border: 2px solid wheat;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap; /* Allow tea cups to wrap onto new lines */
+    align-items: center; /* Vertically center the tea cups */
+    justify-content: space-between; /* Center the rows horizontally */
+    gap: 1rem; /* Space between the tea cups */
+    height: 100vh;
+    flex-direction: row;
+
+    background-color: #ffef96;
+    height: 100px;
+}
+
+.game div {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

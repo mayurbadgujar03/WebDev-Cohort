@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            align-content: center;
+            position: relative;
+        }
+
+        .max {
+            border-radius: 5px;
+            background-color: #f2f2e4;
+            padding: 20px;
+            width: 500px;
+            margin: auto;
+        }
+
+        input,
+        textarea {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            margin: 5px;
+            height: 30px;
+        }
+        #item{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="max">
+        <form class="form" action="">
+            <div id="item"><label for="number">phone</label>
+                <input placeholder="number" id="number" type="number">
+            </div>
+
+            <textarea placeholder="comments" name="comments" id="comments"></textarea>
+
+            <div id="item" ><label for="password">password</label>
+                <input placeholder="password" id="password" type="password" pattern="[A-Za-z-0-9]{3}">
+    </div>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
