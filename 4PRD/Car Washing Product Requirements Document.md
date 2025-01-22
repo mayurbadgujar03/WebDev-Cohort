@@ -115,6 +115,6 @@ Timeline is simply that amount of time required to complete the project(e.g. 3 m
 Now you know how much planning goes into a project before jumping into coding mindlessly. A **PRD(Product Requirements Document)** is just a **common-sense** written down.
 ---
 ### Related Blog
-This PRD was created as part of the blog: [Understanding PRD for Car Washing Projects]([https://web-dev-ex.hashnode.dev/prd-car-washing-product-requirements-document]).
+This PRD was created as part of the blog: [Understanding PRD for Car Washing Projects](https://web-dev-ex.hashnode.dev/prd-car-washing-product-requirements-document).
 
 > Get your idea on paper in PRD format and code with clarity!
