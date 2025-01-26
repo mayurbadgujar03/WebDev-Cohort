@@ -1,0 +1,158 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: 2.5rem;
+  color: #ff6666;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #aaaaaa;
+  margin-bottom: 10px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.beginner {
+  background-color: #242424;
+  border: 2px solid #444444;
+}
+.beginner .price {
+  color: #ff6666;
+}
+
+.warrior {
+  background-color: #3b1a1a;
+  border: 2px solid #ff6666;
+  position: relative;
+}
+.warrior .popular-tag {
+  position: absolute;
+  top: -20px;
+  background-color: #ffcc33;
+  color: #000000;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.warrior .price {
+  color: #ff6666;
+}
+
+.champion {
+  background-color: #403511;
+  border: 2px solid #ffd700;
+}
+.champion .price {
+  color: #ffd700;
+}
+.champion .join-btn {
+  color: #ffd700;
+  border: 2px solid #ffd700;
+}
+.champion .join-btn:hover {
+  background-color: #ffd700;
+  color: #000000;
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card-header h2{
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.icon {
+  font-size: 2rem;
+}
+.price-block {
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.period {
+  color: #aaaaaa;
+}
+.features {
+  text-align: left;
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+.features li {
+  list-style: none;
+  text-align: left;
+  font-size: 16px;
+  margin: 10px;
+}
+.features li.disabled {
+  color: #666666;
+  text-decoration: line-through;
+}
+.join-btn {
+  border: 2px solid #ff6666;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background: transparent;
+  color: #ff6666;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s,color 0.3s;
+}
+.join-btn:hover {
+  background-color: #ff6666;
+  color: #ffffff;
+}
